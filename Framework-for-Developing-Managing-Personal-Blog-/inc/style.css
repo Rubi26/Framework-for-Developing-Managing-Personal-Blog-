@@ -1,0 +1,315 @@
+*{
+	margin:0;
+	padding:0;
+}
+#bodyWrapper{
+	width: 70%;
+	margin: 0 auto;
+	font-family: 'Lato', sans-serif;
+}
+
+#header{
+	background-color: #CE9429; 
+	overflow: hidden;
+	padding: 15px 10px 15px 10px;
+}
+.header-left,.header-right{
+	overflow: hidden;
+	width: 50%;
+}
+.header-left{
+	float: left;
+}
+.header-right{
+	float: left;
+	text-align: right;
+}
+.header-left .logo{
+	float: left;
+}
+.header-left .blogAuthor{
+	float: left;
+	margin-left: 20px;
+    margin-top: 20px;
+}
+.blogAuthor h2{
+	color: #fff;
+}
+.blogAuthor p{
+	color: #fff;
+}
+.header-social-icons ul{
+	margin-top: 20px;
+}
+.header-social-icons ul li{
+	list-style: none;
+	display: inline;
+	margin-left: 5px;
+}
+.header-social-icons ul li a{
+	background-color: #A76D01;
+	padding: 5px;
+	color: #fff;
+}
+.header-search-bar {
+	margin-top: 10px;
+}
+.header-search-bar input:nth-child(1){
+	background: #FFDC78;
+}
+.header-search-bar input:nth-child(2){
+
+}
+
+/*menus starts here*/
+#menu{
+	background-color: #EAB045;
+}
+#menu ul{
+	overflow: hidden;
+}
+#menu ul li{
+	list-style: none;
+	display: inline;
+	float: left;
+}
+#menu ul li a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 20px;
+	padding: 15px;
+	font-weight: bold;
+	display: block;
+	transition: all 0.4s ease;
+}
+#menu .active{
+	background-color: #FBF4E2;
+}
+#menu ul li a:hover{
+	background-color: #FBF4E2;
+	color: #000;
+}
+#menu .active a{
+	color: #000;
+}
+/*menu ends here*/
+
+/*footer starts here*/
+#footer{
+	background-color: #BA7F17;
+	padding: 15px 0px; 
+}
+.footer-menu ul{
+	overflow: hidden;
+    width: 230px;
+    margin: 0 auto;
+
+}
+.footer-menu ul li{
+	list-style: none;
+	display: inline;
+	float: left;
+}
+.footer-menu ul li a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 15px;
+	padding: 5px;
+	font-weight: bold;
+	display: block;
+	transition: all 0.4s ease;
+}
+
+.footer-copyright p{
+	text-align: center;
+	margin-top: 5px;
+}
+/*footer ends here*/
+
+/*main body start*/
+#mainbody{
+	overflow: hidden;
+	margin: 10px 0;
+}
+
+
+/*sidenav starts*/
+.sidenav{
+	width: 33%;
+	float: right;
+	padding: 0 15px;
+	background-color: #FBF4E2;
+
+}
+
+.all-post{
+	width: 62%;
+	float: left;
+	background-color: #FBF4E2;
+
+}
+.all-post-parts{
+	padding: 15px;
+}
+.all-post-parts h2{
+	border-bottom: 2px solid #a47628;
+    padding-bottom: 8px;
+    margin-bottom: 7px;
+}
+.all-post-parts h2 a{
+	text-decoration: none;
+	color: #000;
+}
+.all-post-parts ul{
+	overflow: hidden;
+}
+.all-post-parts ul li{
+	list-style: none;
+	display: inline;
+	float: left;
+}
+.all-post-parts ul .bar{
+	margin: 5px 10px 0 0;
+}
+.all-post-parts ul li a{
+	text-decoration: none;
+    padding: 0 5px 5px 0px;
+    display: block;
+    margin: 5px 10px 0px 0;
+
+}
+.post-contents{
+	margin-top: 10px;
+}
+.sample-post-image{
+	width: 200px;
+	height: auto;
+	float: left;
+	margin-right: 25px;
+}
+.sample-post-image img{
+	width: 100%;
+    border: 1px solid #eab045;
+    padding: 5px;
+}
+.post-contents p{
+	margin-bottom: 15px;
+	text-align: justify;	
+}
+
+.post-contents a{
+	text-decoration: none;
+    border: 2px solid #a47628;
+    padding: 5px 10px;
+    margin: 10px 0;
+    color: #000;
+    background-color: #eab045;
+}
+.pagination{
+	display: block;
+	text-align: center;
+	font-size: 20px;
+	margin-top: 10px;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+.pagination a{
+	background-color: #e6af4b;
+	border: 1px solid #a7700c;
+	border-radius: 3px;
+	margin-left: 2px;
+	padding: 2px 10px;
+	text-decoration: none;
+	color: #000;
+}
+/*all post ends*/
+
+/*related post starts here*/
+.related_post{
+	padding: 0px 5px 0px 15px;
+    background-color: #FBF4E2;
+}
+.related_post a{
+	width: 29.3%;
+    display: block;
+    float: left;
+    padding: 5px;
+    border: 1px solid #eab045;
+    margin: 0 10px 10px 0;
+}
+.related_post a img{
+	width: 100%;
+}
+.related_post h2{
+	background-color: #EAB045;
+    border-bottom: 2px solid #a47628;
+    padding-top: 8px;
+    padding-left: 8px;
+    padding-bottom: 8px;
+    margin-bottom: 20px;
+}
+/*related post ends here*/
+
+.categories{
+	margin: 10px 0;
+}
+.categories h2, .latestpost h2{
+	font-size: 26px;
+    font-weight: bold;
+    color: #000;
+    padding: 10px 10px;
+    background-color: #EAB045;
+    border-bottom: 4px solid #A47628;
+}
+.categories ul{}
+.categories ul li{
+	list-style: none;
+	margin-left: 10px;
+	margin-right: 7px;
+	padding: 7px 0  7px 0px;
+    border-bottom: 1px dashed #A47628;
+}
+.categories ul li:last-child{
+
+    border-bottom: 0px dashed #A47628;
+}
+.categories ul li a{
+	text-decoration: none;
+	font-size: 19px;
+	color: #A47628;
+}
+
+
+.latestpost{
+	margin-top: 20px;
+}
+.single-latest-post{
+	margin-bottom: 15px;
+}
+
+.single-latest-post h3 a{
+	display: block;
+	color: #000;
+	border-bottom: 1px dashed #000;
+    padding: 8px;
+    text-decoration: none;
+    margin-bottom: 18px;
+}
+
+.latest-post-image{
+	max-width: 70px;
+	float: left;
+    margin-right: 6px;
+    border: 1px solid #ca9d54;
+    padding: 3px;
+    border-radius: 30px;
+}
+.latest-post-image img{
+	width: 100%;
+    border-radius: 30px;
+}
+.single-latest-post p{
+	text-align: justify;
+}
+/*main body ends*/
+
